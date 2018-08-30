@@ -18,21 +18,25 @@ header {
 
 nav {   text-align: center;
         font-weight: bold;
-         
+        
+
     }
 
 nav ul { list-style-type: none;
-    display: inline;
+   
     text-align: center;
     font-size: 1.5em;
-    margin: 5px; }
+    margin: 20px;
+    }
 
-nav li { display: inline; }
+nav li { display: inline-block;
+     }
 
 nav a { text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px; 
-    border: 1px outset  #FFFFFF ;} 
+    /* Buttons Separation */
+    font-size: larger;
+    margin: 10px;
+    border: 3px outset  #FFFFFF ;} 
 
 nav a:link{color:#3F2860;  }
 nav a:visited{color: #497777;  }
@@ -70,6 +74,9 @@ footer a { text-decoration: none;
             }
             header { font-size:xx-large;
             }
+            body { font-size:large;
+            }
+           
         }
 
 /* Media changed from tablet mode  */
@@ -78,6 +85,11 @@ footer a { text-decoration: none;
                 background-color: rgb(202, 211, 248);
             }
     header { font-size: x-large;                   }
+    nav a { 
+        font-size: .90em ;
+       } 
+       body { font-size:medium;
+       }
         
         }
 /* Media changed to smart phone   */
@@ -91,6 +103,14 @@ footer a { text-decoration: none;
 
             p.removal
             { display: none;}
+            nav a { 
+                font-size: small;
+                margin-top: 25px;
+                margin-bottom: 25px;
+               } 
+            body {
+                    font-size: small;
+            }
 
       }
 
